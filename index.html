@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Regrow Your Hair the Natural Way</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/imgs/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/modalmm.css">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+    <header id="header" class="header sticky-top">
+
+        <div class="topbar d-flex align-items-center">
+            <div class="container d-flex justify-content-center justify-content-md-between">
+                <div class="d-none d-md-flex align-items-center">
+                    <i class="bi bi-clock me-1"></i> Monday - Saturday, 8AM to 10PM
+                </div>
+            </div>
+        </div>
+        <!-- End Top Bar -->
+
+        <div class="branding d-flex align-items-center">
+
+            <div class="container position-relative d-flex align-items-center justify-content-end">
+                <a href="index.html" class="logo d-flex align-items-center me-auto">
+                    <img src="assets/imgs/logo.jpg" alt="">
+                </a>
+
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li><a href="#hero" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#results">Results</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+
+                    </ul>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </nav>
+                <button class="cta-btn" data-bs-toggle="modal" data-bs-target="#popupModal1">Make an
+                    Appointment</button>
+            </div>
+        </div>
+    </header>
+
+    <a href="https://wa.link/a1db0z" class="float" target="_blank"><i class="bi bi-whatsapp"></i></a>
+    <a href="tel:+91-8866265989" class="call-icon-link float1">
+        <i class="bi bi-telephone-fill"></i>
+    </a>
+
+
+    <!-- Bootstrap Modal -->
+    <div class="modal fade" id="popupModal" tabindex="-1" aria-labelledby="popupModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-center">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold text-center w-100" id="popupModalLabel">Request a callback for a
+                        consultation!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <form method="post" action="sendlead.php">
+                        <!-- Name Field -->
+                        <div class="mb-3">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                        </div>
+
+                        <!-- Number Field -->
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="mobile" placeholder="Your Mobile No"
+                                required="">
+                        </div>
+
+                        <!-- City Field -->
+                        <div class="mb-3">
+                            <input type="city" class="form-control" name="city" placeholder="Your City" required="">
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="d-flex justify-content-center mb-1 pt-3">
+                            <button type="submit" class="btn btn-submit w-25">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Appoinment Modal -->
+    <div class="modal fade" id="popupModal1" tabindex="-1" aria-labelledby="popupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold text-center w-100" id="popupModalLabel">Schedule a Consultation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <form method="post" action="sendlead.php">
+                        <!-- Name Field -->
+                        <div class="mb-3">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                        </div>
+
+                        <!-- Number Field -->
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="mobile" placeholder="Your Mobile No"
+                                required="">
+                        </div>
+
+                        <!-- City Field -->
+                        <div class="mb-3">
+                            <input type="city" class="form-control" name="city" placeholder="Your City" required="">
+                        </div>
+
+                        <!-- Remark Field -->
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="remark" placeholder="Remark" required="">
+                        </div>
+
+                        <!-- Date Field -->
+                        <div class="col-mb-3">
+                            <input type="text" class="form-control" placeholder="Date of visit"
+                                onfocus="(this.type='date')" name="date_of_visit" style="height: 55px;">
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="d-flex justify-content-center mb-1 pt-3">
+                            <button type="submit" class="btn btn-submit w-25">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Know More -->
+    <!-- Appoinment Modal -->
+    <div class="modal fade" id="popupModal2" tabindex="-1" aria-labelledby="popupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold text-center w-100" id="popupModalLabel">Schedule a Consultation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <form method="post" action="sendlead.php">
+                        <!-- Name Field -->
+                        <div class="mb-3">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                        </div>
+
+                        <!-- Number Field -->
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="mobile" placeholder="Your Mobile No"
+                                required="">
+                        </div>
+
+                        <!-- City Field -->
+                        <div class="mb-3">
+                            <input type="city" class="form-control" name="city" placeholder="Your City" required="">
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="d-flex justify-content-center mb-1 pt-3">
+                            <button type="submit" class="btn btn-submit w-25">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="hero" class="container-fluid p-0">
+            <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel"
+                data-bs-interval="5000">
+
+                <!-- Carousel Inner -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/imgs/slide8.jpeg" class="img-fluid w-100" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/imgs/slide12.jpeg" class="img-fluid w-100" alt="Slide 2">
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+
+            <!-- Section Title -->
+            <div class="container section-title">
+                <h2>About Us<br></h2>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container">
+                <div class="row gy-0">
+                    <div class="col-lg-6 position-relative align-self-start" data-aos-delay="100">
+                    </div>
+                    <img src="assets/imgs/slide8.jpeg" class="img-fluid w-100" alt="Doctor Image">
+                    <section class="treatment-protocol">
+                        <h2>Our Advanced Treatment Protocol</h2>
+                        <div class="protocol-list">
+                            <!-- Column 1 -->
+                            <div class="column">
+                                <ul>
+                                    <li class="protocol-item">
+                                        <strong class="protocol-title">1. Experienced & Qualified Surgeons &
+                                            Team</strong>
+                                        <div class="protocol-description">
+                                            40+ Surgeons<br>
+                                            200+ Staff
+                                        </div>
+                                    </li>
+                                    <li class="protocol-item">
+                                        <strong class="protocol-title">2. Trichoscopy Analysis</strong>
+                                        <div class="protocol-description">
+                                            For proper hair loss assessment.
+                                        </div>
+                                    </li>
+                                    <li class="protocol-item">
+                                        <strong class="protocol-title">3. 4x-5x Magnification</strong>
+                                        <div class="protocol-description">
+                                            For precision microsurgical work.
+                                        </div>
+                                    </li>
+                                    <li class="protocol-item">
+                                        <strong class="protocol-title">4. Sapphire Tip Custom Blades</strong>
+                                        <div class="protocol-description">
+                                            For slit creation to achieve a natural-looking high-density look.
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Column 2 -->
+                            <div class="column">
+                                <ul>
+                                    <li class="protocol-item">
+                                        <strong class="protocol-title">5. Sharp Serrated Punches</strong>
+                                        <div class="protocol-description">
+                                            To get the best quality graft without any damage to the donor area.
+                                        </div>
+                                    </li>
+                                    <li class="protocol-item">
+                                        <strong class="protocol-title">6. KEEP Implanter</strong>
+                                        <div class="protocol-description">
+                                            Best-quality implantation tool to increase survival of every graft to near
+                                            100%.
+                                        </div>
+                                    </li>
+                                    <li class="protocol-item">
+                                        <strong class="protocol-title">7. Graft Chiller and Growth Factor /
+                                            Hypothermosol
+                                            System</strong>
+                                        <div class="protocol-description">
+                                            To achieve 100% graft survival during the procedure.
+                                        </div>
+                                    </li>
+                                    <li class="protocol-item">
+                                        <strong class="protocol-title">8. Emergency Ready Setup</strong>
+                                        <div class="protocol-description">
+                                            To avoid complications and restore your natural, real, and live hairs.
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /About Section -->
+
+                    
+
+                    <!--Result section -->
+
+                    <section id="results" class="my-slider-section ">
+                        <h2 class="my-slider-title">Before & After Hair Transplant</h2>
+
+                        <!-- Arrows -->
+                        <button class="my-slider-arrow my-arrow-left" id="myArrowLeft">&#10094;</button>
+                        <button class="my-slider-arrow my-arrow-right" id="myArrowRight">&#10095;</button>
+
+                        <!-- Slider -->
+                        <div class="my-slider-container">
+                            <div class="my-slider-track" id="mySliderTrack">
+                                <div class="my-slider-item">
+                                    <img src="assets/imgs/demo1.webp" alt="Before 1">
+                                </div>
+                                <div class="my-slider-item">
+                                    <img src="assets/imgs/demo2.webp" alt="After 1">
+                                </div>
+                                <div class="my-slider-item">
+                                    <img src="assets/imgs/demo3.webp" alt="Before 2">
+                                </div>
+                                <div class="my-slider-item">
+                                    <img src="assets/imgs/demo4.webp" alt="After 2">
+                                </div>
+                                <div class="my-slider-item">
+                                    <img src="assets/imgs/demo1.webp" alt="Before 1">
+                                </div>
+                                <div class="my-slider-item">
+                                    <img src="assets/imgs/demo2.webp" alt="After 1">
+                                </div>
+                                <div class="my-slider-item">
+                                    <img src="assets/imgs/demo3.webp" alt="Before 2">
+                                </div>
+                                <div class="my-slider-item">
+                                    <img src="assets/imgs/demo4.webp" alt="After 2">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Services Section -->
+                    <section id="services" class="services section">
+
+                        <!-- Section Title -->
+                        <div class="container section-title" data-aos="fade-up">
+                            <h2>Services</h2>
+                            <p>Restore your hair and confidence with advanced hair transplant solutions. Experience
+                                safe, effective,
+                                and natural-looking results tailored to your unique needs. Take the first step toward a
+                                fuller,
+                                healthier head of hair today</p>
+                        </div>
+                        <!-- End Section Title -->
+
+                        <div class="container">
+
+                            <div class="row gy-4">
+
+                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="service-item  position-relative">
+                                        <div class="icon">
+                                            <i class="fas fa-user-md"></i>
+                                        </div>
+                                        <a href="#" class="stretched-link">
+                                            <h3>Hair Loss Treatment</h3>
+                                        </a>
+                                        <p>
+                                            Regrow your hair, restore your confidence. Discover effective solutions like
+                                            medications, hair transplants, and advanced therapies for lasting results.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- End Service Item -->
+
+                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="service-item position-relative">
+                                        <div class="icon">
+                                            <i class="fas fa-notes-medical"></i>
+                                        </div>
+                                        <a href="#" class="stretched-link">
+                                            <h3>Hair Transplant</h3>
+                                        </a>
+                                        <p>
+                                            Regain your hair. Restore your confidence. Book your hair transplant
+                                            consultation today
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- End Service Item -->
+
+
+                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                                    <div class="service-item position-relative">
+                                        <div class="icon">
+                                            <i class="fas fa-stethoscope"></i>
+                                        </div>
+                                        <a href="#" class="stretched-link">
+                                            <h3>Hair Loss Solutions</h3>
+                                        </a>
+                                        <p>
+                                            At Hairfree & Hairgrow Clinic, we offer effective medical treatments to slow
+                                            hair loss
+                                            and maintain your hair—quick, painless, and hassle-free.
+                                        </p>
+                                        <a href="#" class="stretched-link"></a>
+                                    </div>
+                                </div>
+                                <!-- End Service Item -->
+
+
+                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="service-item position-relative">
+                                        <div class="icon">
+                                            <i class="fas fa-user-alt"></i>
+                                        </div>
+                                        <a href="#" class="stretched-link">
+                                            <h3>Beard Hair Transplant</h3>
+                                        </a>
+                                        <p>
+                                            Get a fuller, natural-looking beard with our expert transplant services.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- End Service Item -->
+
+
+                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                                    <div class="service-item position-relative">
+                                        <div class="icon">
+                                            <i class="fas fa-eye"></i>
+                                        </div>
+                                        <a href="#" class="stretched-link">
+                                            <h3>Eyebrow Hair Transplant </h3>
+                                        </a>
+                                        <p>
+                                            Restore, reshape, or enhance your brows with expert transplants for natural,
+                                            flawless
+                                            results.
+                                        </p>
+                                        <a href="#" class="stretched-link"></a>
+                                    </div>
+                                </div>
+                                <!-- End Service Item -->
+
+                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                                    <div class="service-item position-relative">
+                                        <div class="icon">
+                                            <i class="fas fa-male"></i>
+                                        </div>
+                                        <a href="#" class="stretched-link">
+                                            <h3>Body Hair Transplant</h3>
+                                        </a>
+                                        <p>
+                                            Transform body hair into confidence! Achieve natural, lasting results with a
+                                            body hair
+                                            transplant.
+                                        </p>
+                                        <a href="#" class="stretched-link"></a>
+                                    </div>
+                                </div>
+                                <!-- End Service Item -->
+
+                            </div>
+
+                        </div>
+
+                    </section>
+                    <!-- /Services Section -->
+
+                    <section class="py-5">
+                        <div class="container">
+                            <div class="row g-4 justify-content-center text-center">
+
+                                <!-- Box 1 -->
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                    <div class="counter-box p-4">
+                                        <h3 class="counter-number mb-2" data-target="100000">0<span
+                                                class="plus">+</span></h3>
+                                        <p class="counter-label">Satisfied Patients</p>
+                                    </div>
+                                </div>
+
+                                <!-- Box 2 -->
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                    <div class="counter-box p-4">
+                                        <h3 class="counter-number mb-2" data-target="20000">0<span class="plus">+</span>
+                                        </h3>
+                                        <p class="counter-label">Hair Transplant Surgeries</p>
+                                    </div>
+                                </div>
+
+                                <!-- Box 3 -->
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                    <div class="counter-box p-4">
+                                        <h3 class="counter-number mb-2" data-target="15">0<span class="plus">+</span>
+                                        </h3>
+                                        <p class="counter-label">Years Experience</p>
+                                    </div>
+                                </div>
+
+                                <!-- Box 4 -->
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                    <div class="counter-box p-4">
+                                        <h3 class="counter-number mb-2" data-target="13">0<span class="plus">+</span>
+                                        </h3>
+                                        <p class="counter-label">Clinics In India</p>
+                                    </div>
+                                </div>
+
+                                <!-- Box 5 -->
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                                    <div class="counter-box p-4">
+                                        <h3 class="counter-number mb-2" data-target="30">0<span class="plus">+</span>
+                                        </h3>
+                                        <p class="counter-label">Doctors</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Faq Section -->
+                    <section id="hf-faq-section" class="hf-faq-section section light-background">
+
+                        <!-- Section Title -->
+                        <div class="container hf-faq-section-title" data-aos="fade-up">
+                            <h2>Frequently Asked Questions</h2>
+                            <p>We aim to answer the most frequently asked questions about hair transplants with clarity.
+                            </p>
+                        </div>
+                        <!-- End Section Title -->
+
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+                                    <div class="hf-faq-container">
+
+                                        <!-- FAQ Item -->
+                                        <div class="hf-faq-item">
+                                            <h3 class="hf-faq-question">What is the hair treatment cost in Kolkata?</h3>
+                                            <div class="hf-faq-content">
+                                                <p>
+                                                    The hair treatment cost in Kolkata depends on factors like the type
+                                                    of treatment
+                                                    and individual hair concerns. Hairfree and Hairgrow Clinic offers
+                                                    advanced and
+                                                    affordable solutions for hair regrowth and restoration with high
+                                                    success rates.
+                                                    <a class="underline-link" data-bs-toggle="modal"
+                                                        data-bs-target="#popupModal2">Know More</a>
+                                                </p>
+                                            </div>
+                                            <i class="hf-faq-toggle bi bi-chevron-right"></i>
+                                        </div>
+                                        <!-- End Faq item-->
+
+                                        <div class="hf-faq-item">
+                                            <h3 class="hf-faq-question">What is a hair transplant?</h3>
+                                            <div class="hf-faq-content">
+                                                <p>A hair transplant is a minimally invasive procedure where healthy
+                                                    hair follicles
+                                                    are moved from one part of the scalp (usually the back or sides) to
+                                                    areas with
+                                                    thinning or no hair.
+                                                    <a class="underline-link" data-bs-toggle="modal"
+                                                        data-bs-target="#popupModal2">Know More</a>
+                                                </p>
+                                            </div>
+                                            <i class="hf-faq-toggle bi bi-chevron-right"></i>
+                                        </div>
+                                        <!-- End Faq item-->
+
+                                        <div class="hf-faq-item">
+                                            <h3 class="hf-faq-question">Is a hair transplant permanent?</h3>
+                                            <div class="hf-faq-content">
+                                                <p>Yes! The transplanted hair follicles are typically resistant to hair
+                                                    loss and
+                                                    will continue to grow naturally for a lifetime.
+                                                    <a class="underline-link" data-bs-toggle="modal"
+                                                        data-bs-target="#popupModal2">Know More</a>
+                                                </p>
+                                            </div>
+                                            <i class="hf-faq-toggle bi bi-chevron-right"></i>
+                                        </div>
+                                        <!-- End Faq item-->
+
+                                        <div class="hf-faq-item">
+                                            <h3 class="hf-faq-question">Does a hair transplant look natural?</h3>
+                                            <div class="hf-faq-content">
+                                                <p>Absolutely. With advanced techniques like FUE and FUT, the results
+                                                    look
+                                                    completely natural. The transplanted hair blends seamlessly with
+                                                    your existing
+                                                    hair.
+                                                    <a class="underline-link" data-bs-toggle="modal"
+                                                        data-bs-target="#popupModal2">Know More</a>
+                                                </p>
+                                            </div>
+                                            <i class="hf-faq-toggle bi bi-chevron-right"></i>
+                                        </div>
+                                        <!-- End Faq item-->
+
+                                        <div class="hf-faq-item">
+                                            <h3 class="hf-faq-question">Is the procedure painful?</h3>
+                                            <div class="hf-faq-content">
+                                                <p>The procedure is performed under local anesthesia, so there’s minimal
+                                                    discomfort
+                                                    during the process. Most patients describe the experience as
+                                                    painless.
+                                                    <a class="underline-link" data-bs-toggle="modal"
+                                                        data-bs-target="#popupModal2">Know More</a>
+                                                </p>
+                                            </div>
+                                            <i class="hf-faq-toggle bi bi-chevron-right"></i>
+                                        </div>
+                                        <!-- End Faq item-->
+
+                                        <div class="hf-faq-item">
+                                            <h3 class="hf-faq-question">What is the recovery time?</h3>
+                                            <div class="hf-faq-content">
+                                                <p>Most people return to normal activities within 2 to 5 days. You may
+                                                    experience
+                                                    mild redness or scabbing for a week, but it typically resolves
+                                                    quickly.
+                                                    <a class="underline-link" data-bs-toggle="modal"
+                                                        data-bs-target="#popupModal2">Know More</a>
+                                                </p>
+                                            </div>
+                                            <i class="hf-faq-toggle bi bi-chevron-right"></i>
+                                        </div>
+                                        <!-- End Faq item-->
+
+                                        <div class="hf-faq-item">
+                                            <h3 class="hf-faq-question">When will I see results?</h3>
+                                            <div class="hf-faq-content">
+                                                <p>New hair usually starts growing within 3 to 4 months. Full results
+                                                    are visible
+                                                    between 9 to 12 months after the procedure.
+                                                    <a class="underline-link" data-bs-toggle="modal"
+                                                        data-bs-target="#popupModal2">Know More</a>
+
+                                                </p>
+                                            </div>
+                                            <i class="hf-faq-toggle bi bi-chevron-right"></i>
+                                        </div>
+                                        <!-- End Faq item-->
+
+                                    </div>
+                                    <!-- End hf-faq-container -->
+
+                                    <!-- Know More Button -->
+                                    <div class="hf-know-more-btn-container text-center mt-4">
+                                        <button class="hf-know-more-btn" data-bs-toggle="modal"
+                                            data-bs-target="#popupModal2">Know
+                                            More</button>
+                                    </div>
+                                </div>
+                                <!-- End Faq Column -->
+                            </div>
+                            <!-- End Row -->
+                        </div>
+                        <!-- End Container -->
+                    </section>
+                    <!-- /Faq Section -->
+
+
+                    <!--Testimonials section -->
+                    <section id="testimonials">
+                        <h2 class="my-slider-title">Happy Customers, Great Results!</h2>
+                        <div class="unique-slider-wrapper">
+
+                            <!-- Arrows -->
+                            <button class="unique-arrow-btn unique-arrow-left" id="uniqueArrowLeft">&#10094;</button>
+                            <button class="unique-arrow-btn unique-arrow-right" id="uniqueArrowRight">&#10095;</button>
+
+                            <!-- Slides -->
+                            <div class="unique-slider-container" id="uniqueSliderContainer">
+
+                                <!-- Slide 1 -->
+
+                                <div class="unique-slide-item">
+                                    <div class="unique-slide-text">
+                                        <p>
+                                            As per my own experience with this clinic, and the result I got after the HT
+                                            is really
+                                            amazing, now I m very happy with my results. I got a home like feel and
+                                            experience in
+                                            this clinic because all staffs and specially the doctors are very good and
+                                            cooperative.
+                                            I reccomend this clinic for all who are facing any hair related problems.
+                                        </p>
+                                        <div class="unique-slide-rating">Google Review</div>
+                                        <div class="unique-slide-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                                        <div class="unique-slide-details">
+                                            <strong>Technique</strong>: B-FUE <br />
+                                            <strong>Grafts</strong>: 4122<br />
+                                            <strong>Location</strong>: Kolkata
+                                        </div>
+                                        <div class="unique-reviewer-name">Mukesh Mahto</div>
+                                    </div>
+                                    <div class="unique-slide-image">
+                                        <img src="assets/imgs/review1.webp" alt="Before and After">
+                                    </div>
+                                </div>
+
+                                <!-- Slide 2 -->
+                                <div class="unique-slide-item">
+                                    <div class="unique-slide-text">
+                                        <p>
+                                            Hairfree and Hairgrow is the best clinic to get your hair transplant done.
+                                            Doctors and
+                                            all the staffs associated with the clinic are very helpful. I would suggest
+                                            everyone to
+                                            visit Hairfree and Hairgrow. </p>
+                                        <div class="unique-slide-rating">Google Review</div>
+                                        <div class="unique-slide-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                                        <div class="unique-slide-details">
+                                            <strong>Technique</strong>: B-FUE <br />
+                                            <strong>Grafts</strong>: 4122<br />
+                                            <strong>Location</strong>: Kolkata
+                                        </div>
+                                        <div class="unique-reviewer-name">Debayan Chakrabarty</div>
+                                    </div>
+                                    <div class="unique-slide-image">
+                                        <img src="assets/imgs/Debayan-Chakrabarty.webp" alt="Before and After">
+                                    </div>
+                                </div>
+
+                                <!-- Slide 3 -->
+                                <div class="unique-slide-item">
+                                    <div class="unique-slide-text">
+                                        <p>
+                                            I am so happy my transplant results thank u Dr . pratibha Pradhan ma'am . 7
+                                            month ago I
+                                            transplant my hair hair free hair grow Kolkata branch today my results are
+                                            so impressed.
+                                            Thank u ma'am & all staff.
+                                        </p>
+                                        <div class="unique-slide-rating">Google Review</div>
+                                        <div class="unique-slide-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                                        <div class="unique-slide-details">
+                                            <strong>Technique</strong>: B-FUE <br />
+                                            <strong>Grafts</strong>: 4122<br />
+                                            <strong>Location</strong>: Kolkata
+                                        </div>
+                                        <div class="unique-reviewer-name">Prasenjeet Biswas</div>
+                                    </div>
+                                    <div class="unique-slide-image">
+                                        <img src="assets/imgs/Prasenjeet-Biswas-.webp" alt="Before and After">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="single-doctor-section">
+                        <!-- Main Heading at the top of the section -->
+                        <div class="container">
+                            <div class="row justify-content-center mb-5">
+                                <div class="col-lg-8 text-center">
+                                    <h2 class="fw-bold">Meet Our Expert Hair Transplant Surgeon in Kolkata</h2>
+                                    <p class="text-muted">Highly qualified professionals dedicated to providing
+                                        world-class hair
+                                        restoration treatments.</p>
+                                </div>
+                            </div>
+                            <!-- Doctor Card -->
+                            <div class="doctor-card mx-auto">
+                                <img src="assets/imgs/Prabha.jpg" alt="Doctor" class="doctor-img">
+                                <div class="doctor-info">
+                                    <h4>Dr. Pratibha Pradhan</h4>
+                                    <p>M.D Skin (Kolkata)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!-- Contact Section -->
+                    <section id="contact" class="contact section">
+
+                        <!-- Section Title -->
+                        <div class="container section-title" data-aos="fade-up">
+                            <h2>Contact</h2>
+                            <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+                        </div>
+                        <!-- End Section Title -->
+
+                        <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+                            <iframe style="border:0; width: 100%; height: 370px;"
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3683.776580757356!2d88.403811!3d22.587458!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02755e06f9240f%3A0xa9bcce14d8999aea!2sHairfree%20And%20Hairgrow%20Clinic!5e0!3m2!1sen!2sus!4v1742055827480!5m2!1sen!2sus"
+                                frameborder="0" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <!-- End Google Maps -->
+
+                        <div class="container" data-aos="fade-up" data-aos-delay="100">
+                            <div class="row gy-4">
+                                <div class="col-lg-6 ">
+                                    <div class="row gy-4">
+
+                                        <div class="col-lg-12">
+                                            <div class="info-item d-flex flex-column justify-content-center align-items-center"
+                                                data-aos="fade-up" data-aos-delay="200">
+                                                <i class="bi bi-geo-alt"></i>
+                                                <h3>Address</h3>
+                                                <p class="text-center">Hairfree And Hairgrow Clinic, 26, 1st Cross Rd,
+                                                    DA Block,
+                                                    Sector 1<br> Bidhannagar, Kolkata, West Bengal 700064</p>
+                                            </div>
+                                        </div>
+                                        <!-- End Info Item -->
+
+                                        <div class="col-md-6">
+                                            <div class="info-item d-flex flex-column justify-content-center align-items-center"
+                                                data-aos="fade-up" data-aos-delay="300">
+                                                <i class="bi bi-telephone"></i>
+                                                <h3>Call Us</h3>
+                                                <P>Phone:</P><a href="tel:+91-7219745206">+91-7219745206 </a><br>
+
+                                            </div>
+                                        </div>
+                                        <!-- End Info Item -->
+
+                                        <div class="col-md-6">
+                                            <div class="info-item d-flex flex-column justify-content-center align-items-center"
+                                                data-aos="fade-up" data-aos-delay="400">
+                                                <i class="bi bi-envelope"></i>
+                                                <h3>Email Us</h3>
+                                                <strong>Email:</strong><a
+                                                    href="info@hairfreehairgrow.com">info@hairfreehairgrow.com</a><br>
+                                            </div>
+                                        </div>
+                                        <!-- End Info Item -->
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <!-- <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500"> -->
+                                    <form method="post" action="sendlead.php">
+
+                                        <!-- Name Field -->
+                                        <div class="mb-3">
+                                            <input type="text" name="name" class="form-control" placeholder="Your Name"
+                                                required>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <input type="text" id="mobile" name="mobile" class="form-control"
+                                                placeholder="+91-XXXXXXXXXX" required pattern="\+91\-[6-9][0-9]{9}"
+                                                title="❌ Invalid mobile number. Please enter in format +91-XXXXXXXXXX">
+                                        </div>
+
+                                        <!-- City Field -->
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" name="city" placeholder="Your City"
+                                                required>
+                                        </div>
+
+                                        <!-- Date Field -->
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" placeholder="Date of visit"
+                                                onfocus="(this.type='date')" name="date_of_visit" style="height: 55px;">
+                                        </div>
+
+                                        <!-- Remark Field -->
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" name="remark" placeholder="Remark"
+                                                required>
+                                        </div>
+
+                                        <!-- Submit Button -->
+                                        <div class="d-flex justify-content-center mb-1 pt-3">
+                                            <button type="submit" class="btn btn-submit w-25">Submit</button>
+                                        </div>
+
+                                    </form>
+                                </div>
+                                <!-- End Contact Form -->
+
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /Contact Section -->
+
+    </main>
+
+    <footer id="footer" class="footer light-background">
+
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename">Hairfree & Hairgrow</span>
+                    </a>
+                    <div class="footer-contact pt-3">
+                        <p>Hairfree And Hairgrow Clinic, 26, 1st Cross Rd, <br>DA Block, Sector 1 Bidhannagar,
+                            Kolkata<br> West Bengal 700064</p>
+
+                        <p class="mt-3"><strong>Phone:</strong><a href="tel:+91-7219745206">+91-7219745206 </a></p>
+                        <strong>Email:</strong><a href="info@hairfreehairgrow.com">info@hairfreehairgrow.com</a><br>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#results">Results</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#services">Hair Treatments</a></li>
+                        <li><a href="#services">Hair Transplant</a></li>
+                        <li><a href="#services">Hair Loss</a></li>
+                        <li><a href="#services">Beard Transplant</a></li>
+                        <li><a href="#services">Eyebrow Hair Transplant</a></li>
+                        <li><a href="#services">Body Hair Transplant</a></li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>© <span>2025</span> <strong class="px-1 sitename">Hairfree Laser Pvt ltd</strong> <span>All Rights
+                    Reserved</span></p>
+            <div class="credits">
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/modalmm.css">
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        const myTrack = document.getElementById('mySliderTrack');
+        const myLeftBtn = document.getElementById('myArrowLeft');
+        const myRightBtn = document.getElementById('myArrowRight');
+
+        let currentIndex = 0;
+        const items = document.querySelectorAll('.my-slider-item');
+        const totalItems = items.length;
+
+        function updateSlider() {
+            const itemWidth = items[0].offsetWidth;
+            myTrack.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+        }
+
+        myRightBtn.addEventListener('click', () => {
+            moveRight();
+        });
+
+        myLeftBtn.addEventListener('click', () => {
+            moveLeft();
+        });
+
+        function moveRight() {
+            currentIndex++;
+            if (currentIndex > totalItems - visibleItems()) {
+                currentIndex = 0;
+            }
+            updateSlider();
+        }
+
+        function moveLeft() {
+            currentIndex--;
+            if (currentIndex < 0) {
+                currentIndex = totalItems - visibleItems();
+            }
+            updateSlider();
+        }
+
+        // How many items visible depends on window width
+        function visibleItems() {
+            if (window.innerWidth <= 768) {
+                return 1;
+            } else if (window.innerWidth <= 1024) {
+                return 2;
+            } else {
+                return 3;
+            }
+        }
+
+        // Auto Slide
+        let autoSlide = setInterval(moveRight, 3000); // Change slide every 3 seconds
+
+        // Pause auto slide on hover
+        const sliderContainer = document.querySelector('.my-slider-container');
+
+        sliderContainer.addEventListener('mouseenter', () => clearInterval(autoSlide));
+        sliderContainer.addEventListener('mouseleave', () => {
+            autoSlide = setInterval(moveRight, 3000);
+        });
+
+        // Adjust slider on window resize
+        window.addEventListener('resize', () => {
+            updateSlider();
+        });
+
+        // Initialize on page load
+        window.addEventListener('load', () => {
+            updateSlider();
+        });
+    </script>
+
+
+    <!-- Slider Script -->
+    <script>
+        const uniqueSliderContainer = document.getElementById('uniqueSliderContainer');
+        const uniqueArrowLeft = document.getElementById('uniqueArrowLeft');
+        const uniqueArrowRight = document.getElementById('uniqueArrowRight');
+
+        const uniqueSlides = document.querySelectorAll('.unique-slide-item');
+        const uniqueTotalSlides = uniqueSlides.length;
+
+        let uniqueIndex = 0;
+        let uniqueSlideWidth = uniqueSlides[0].clientWidth;
+
+        function uniqueShowSlide(index) {
+            uniqueSliderContainer.style.transform = `translateX(-${index * uniqueSlideWidth}px)`;
+        }
+
+        function uniqueNextSlide() {
+            uniqueIndex = (uniqueIndex + 1) % uniqueTotalSlides;
+            uniqueShowSlide(uniqueIndex);
+        }
+
+        function uniquePrevSlide() {
+            uniqueIndex = (uniqueIndex - 1 + uniqueTotalSlides) % uniqueTotalSlides;
+            uniqueShowSlide(uniqueIndex);
+        }
+
+        uniqueArrowRight.addEventListener('click', () => {
+            uniqueNextSlide();
+        });
+
+        uniqueArrowLeft.addEventListener('click', () => {
+            uniquePrevSlide();
+        });
+
+        // Automatic sliding
+        setInterval(() => {
+            uniqueNextSlide();
+        }, 4000); // Change slide every 4 seconds
+
+        // Recalculate slide width on window resize
+        window.addEventListener('resize', () => {
+            uniqueSlideWidth = uniqueSlides[0].clientWidth;
+            uniqueShowSlide(uniqueIndex);
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            function showPopup() {
+                var popupBlock = $('#popup-reg');
+                popupBlock.addClass('active');
+            }
+            setTimeout(showPopup, 20000);
+            $('.fade-out.main-btn-circle').click(function () {
+                var popupBlock = $('#popup-reg');
+                popupBlock.removeClass('active');
+            });
+        });
+    </script>
+
+
+    <!-- Custom Script to trigger modal after 20 seconds -->
+    <script>
+        // Wait for the DOM to load
+        document.addEventListener("DOMContentLoaded", function () {
+            // Set a timeout for 20 seconds (20000 ms)
+            setTimeout(function () {
+                var myModal = new bootstrap.Modal(document.getElementById('autoPopupModal'));
+                myModal.show();
+            }, 20000); // 20 seconds
+        });
+    </script>
+    <!-- Bootstrap JS Bundle (Includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Script to trigger modal after 20 seconds -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const counters = document.querySelectorAll('.counter-number');
+            const speed = 200; // Adjust this number for faster/slower increments
+
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-target');
+                let count = 0;
+
+                const increment = target / speed;
+
+                const updateCount = () => {
+                    count += increment;
+
+                    if (count < target) {
+                        let displayValue = Math.floor(count);
+
+                        // Show "K+" for values over 1000
+                        if (target >= 1000) {
+                            displayValue = Math.floor(count / 1000) + 'K';
+                        }
+
+                        counter.innerHTML = `${displayValue}<span class="plus">+</span>`;
+                        requestAnimationFrame(updateCount);
+                    } else {
+                        let finalValue = target;
+                        if (target >= 1000) {
+                            finalValue = Math.floor(target / 1000) + 'K';
+                        }
+                        counter.innerHTML = `${finalValue}<span class="plus">+</span>`;
+                    }
+                };
+                updateCount();
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const faqItems = document.querySelectorAll('.hf-faq-item');
+
+            faqItems.forEach(item => {
+                const toggle = item.querySelector('.hf-faq-toggle');
+                const question = item.querySelector('.hf-faq-question');
+                const content = item.querySelector('.hf-faq-content');
+
+                const toggleFAQ = () => {
+                    const isOpen = content.style.display === 'block';
+
+                    // Optional: Close all other items
+                    faqItems.forEach(i => {
+                        i.querySelector('.hf-faq-content').style.display = 'none';
+                        i.querySelector('.hf-faq-toggle').classList.remove('rotate');
+                    });
+
+                    if (!isOpen) {
+                        content.style.display = 'block';
+                        toggle.classList.add('rotate');
+                    } else {
+                        content.style.display = 'none';
+                        toggle.classList.remove('rotate');
+                    }
+                };
+
+                toggle.addEventListener('click', toggleFAQ);
+                question.addEventListener('click', toggleFAQ);
+            });
+
+            const knowMoreButton = document.querySelector('.hf-know-more-btn');
+            knowMoreButton.addEventListener('click', () => {
+                window.location.href = '#'; // Replace '#' with your destination URL
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            setTimeout(function () {
+                var popupModal = new bootstrap.Modal(document.getElementById('popupModal'));
+                popupModal.show();
+            }, 30000); // 20000ms = 20 seconds
+        });
+    </script>
+
+    <script>
+        const mobileInput = document.getElementById("mobile");
+
+        function setPrefix() {
+            if (!mobileInput.value.startsWith("+91-")) {
+                mobileInput.value = "+91-";
+            }
+        }
+
+        mobileInput.addEventListener("focus", setPrefix);
+
+        mobileInput.addEventListener("input", () => {
+            let value = mobileInput.value;
+
+            if (!value.startsWith("+91-")) {
+                value = "+91-";
+            }
+            // Extract digits after prefix
+            let digits = value.replace("+91-", "").replace(/\D/g, "").substring(0, 10);
+
+            mobileInput.value = "+91-" + digits;
+        });
+
+        mobileInput.addEventListener("keydown", (e) => {
+            if ((e.key === "Backspace" || e.key === "ArrowLeft") && mobileInput.selectionStart <= 4) {
+                e.preventDefault();
+            }
+        });
+
+        // Set initial value on page load
+        window.addEventListener("DOMContentLoaded", setPrefix);
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const protocolItems = document.querySelectorAll(".protocol-item");
+
+            protocolItems.forEach(item => {
+                item.addEventListener("click", () => {
+                    // Toggle the 'active' class on the clicked item
+                    item.classList.toggle("active");
+
+                    // Close other items if needed (optional)
+                    protocolItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.classList.remove("active");
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
